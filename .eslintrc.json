@@ -1,0 +1,8 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "plugins": ["unused-imports"],
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "unused-imports/no-unused-imports": "error"
+  }
+}
